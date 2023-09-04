@@ -1,8 +1,15 @@
+// src/App.test.js
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders chat room title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = screen.getByText(/Chat Room/i);
+  expect(titleElement).toBeInTheDocument();
+});
+
+test('renders initial message input placeholder', () => {
+  render(<App />);
+  const inputElement = screen.getByPlaceholderText(/Type your message.../i);
+  expect(inputElement).toBeInTheDocument();
 });
