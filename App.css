@@ -1,0 +1,104 @@
+/* App.css */
+
+/* Style for the whole app container */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Style for the chat room container */
+.chat-room {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+/* Style for individual chat messages */
+.message {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  max-width: 70%;
+}
+
+/* Style for the input container */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the message input field */
+.message-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Style for the send button */
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the username input field */
+.username-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Style for the join button */
+.join-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.join-button:hover {
+  background-color: #1f8d40;
+}
+
+/* Style for user list */
+.user-list {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Style for each user in the user list */
+.user-list-item {
+  margin-bottom: 5px;
+}
+
+/* Style for the "Online Users" heading */
+.online-users-heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
